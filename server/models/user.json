@@ -1,0 +1,28 @@
+{
+  "name": "user",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "fullName": {
+      "type": "string",
+      "required": true
+    },
+    "telephoneNumber": {
+      "type": "string"
+    },
+    "homePostalCode": {
+      "type": "string",
+      "required": true
+    },
+    "officePostalCode": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
