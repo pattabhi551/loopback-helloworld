@@ -1,5 +1,5 @@
 {
-  "name": "user",
+  "name": "hello-world-user",
   "base": "User",
   "idInjection": true,
   "options": {
