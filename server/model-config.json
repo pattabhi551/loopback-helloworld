@@ -14,7 +14,8 @@
     ]
   },
   "User": {
-    "dataSource": "userDS"
+    "dataSource": "userDS",
+    "public": false
   },
   "AccessToken": {
     "dataSource": "userDS",
@@ -32,7 +33,7 @@
     "dataSource": "userDS",
     "public": false
   },
-  "user": {
+  "hello-world-user": {
     "dataSource": "userDS",
     "public": true
   }
